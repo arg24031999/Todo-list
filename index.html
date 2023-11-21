@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo_list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2><img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="">To-Do List </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Task">
+                <button onClick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!--<li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>-->
+            </ul>
+            <div class="task-actions">
+                <div><button id="complete-all">Complete All Tasks</button></div>
+                <div><button id="clear-completed">Clear Completed Tasks</button></div>
+            </div>
+            <div class="task-count">
+                <div><span id="total-tasks">0</span> Tasks</div>
+                <div><span id="completed-tasks">0</span> Completed</div>
+                <div><span id="tasks-left">0</span> Left</div>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
